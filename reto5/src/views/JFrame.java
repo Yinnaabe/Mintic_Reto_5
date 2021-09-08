@@ -173,7 +173,8 @@ public class JFrame extends javax.swing.JFrame {
         String nombre = jTextField2.getText();
 
         rolController.actualizarRol(Integer.parseInt(id), nombre);
-
+        
+        this.llenarLista();
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
@@ -181,6 +182,8 @@ public class JFrame extends javax.swing.JFrame {
         String id = jTextField1.getText();
 
         rolController.eliminarRol(Integer.parseInt(id));
+        
+         this.llenarLista();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
@@ -199,6 +202,8 @@ public class JFrame extends javax.swing.JFrame {
         String nombre = jTextField2.getText();
 
         rolController.agregarRol(Integer.parseInt(id), nombre);
+        
+        this.llenarLista();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
