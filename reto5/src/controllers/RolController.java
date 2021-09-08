@@ -74,21 +74,23 @@ public class RolController {
     }
 
     /**
-     * public static void main(String[] args) {
-     *
-     * RolDAO rolDao = new RolDAO();
-     *
-     * //List<RolModel> roles = rolDao.obtenerRoles(); //imprimir(roles);
-     * //RolModel rol = new RolModel(3, "Directivo"); //rolDao.agregarRol(rol);
-     * //RolModel rol = new RolModel(3, "Directivo nuevo");
-     * //rolDao.actualizarRol(rol); //rolDao.eliminarRol(3); RolModel s =
-     * rolDao.obtenerRol(2); System.out.println(s.getId() + " " +
-     * s.getNombre());
-     *
-     * }
-     *
-     * public static void imprimir(List<RolModel> roles) { for (RolModel role :
-     * roles) { System.out.println(role.getId() + ", " + role.getNombre()); } }
-     *
+     public static void main(String[] args) {
+    
+     RolDAO rolDao = new RolDAO();
+    
+    //List<RolModel> roles = rolDao.obtenerRoles(); 
+    //imprimir(roles);
+    //RolModel rol = new RolModel(7, "Ejecutivo"); 
+    //rolDao.agregarRol(rol);
+     //RolModel rol = new RolModel(3, "Directivo nuevo");
+     //rolDao.actualizarRol(rol); 
+    // rolDao.eliminarRol(3); 
+     ///RolModel s = rolDao.obtenerRol(2); System.out.println(s.getId() + " " +      s.getNombre());
+         
+      }
+     
+      public static void imprimir(List<RolModel> roles) { for (RolModel rol :
+      roles) { System.out.println(rol.getId() + ", " + rol.getNombre()); } }
+     
      */
 }

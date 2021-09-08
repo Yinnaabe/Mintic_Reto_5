@@ -41,4 +41,9 @@ public class RolModel {
         this.nombre = nombre;
     }
 
+    @Override
+    public String toString() {
+        return "id=" + id + ", nombre=" + nombre;
+    }
+
 }
